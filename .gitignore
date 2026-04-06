@@ -39,3 +39,18 @@
 
 # debug information files
 *.dwo
+
+# PlatformIO
+.pio/
+.vscode/
+
+# ESP-IDF / build outputs
+build/
+sdkconfig
+sdkconfig.old
+
+# macOS / editor noise
+.DS_Store
+
+# Optional local overrides for board credentials
+include/secrets.local.h
